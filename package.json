@@ -1,23 +1,24 @@
 {
-  "name": "solo-leveling",
-  "version": "0.0.0",
+  "name": "exemplo-inicial-react-native",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 4173",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
-    "vue": "^3.2.37",
-    "vue-router": "^4.1.2"
+    "expo": "~48.0.9",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.4",
+    "react-dom": "18.2.0",
+    "react-native-web": "~0.18.10",
+    "@expo/webpack-config": "^18.0.1"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@vitejs/plugin-vue": "^3.0.1",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "eslint": "^8.5.0",
-    "eslint-plugin-vue": "^9.0.0",
-    "prettier": "^2.5.1",
-    "vite": "^3.0.1"
-  }
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
 }
